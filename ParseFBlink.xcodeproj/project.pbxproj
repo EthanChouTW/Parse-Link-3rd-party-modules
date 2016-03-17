@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		124EC52B44AC7946B777A933 /* libPods-ParseFBlink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE89E032BE23D2121F514A12 /* libPods-ParseFBlink.a */; };
+		69363E071C99BBFB00AC5771 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69363E061C99BBFB00AC5771 /* main.m */; };
+		69363E0A1C99BBFB00AC5771 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69363E091C99BBFB00AC5771 /* AppDelegate.m */; };
+		69363E0D1C99BBFB00AC5771 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69363E0C1C99BBFB00AC5771 /* ViewController.m */; };
+		69363E101C99BBFB00AC5771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69363E0E1C99BBFB00AC5771 /* Main.storyboard */; };
+		69363E121C99BBFB00AC5771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69363E111C99BBFB00AC5771 /* Assets.xcassets */; };
+		69363E151C99BBFB00AC5771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69363E131C99BBFB00AC5771 /* LaunchScreen.storyboard */; };
+		69363E241C9A632000AC5771 /* logginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69363E231C9A632000AC5771 /* logginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		69363E021C99BBFB00AC5771 /* ParseFBlink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseFBlink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69363E061C99BBFB00AC5771 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69363E081C99BBFB00AC5771 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69363E091C99BBFB00AC5771 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69363E0B1C99BBFB00AC5771 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69363E0C1C99BBFB00AC5771 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69363E0F1C99BBFB00AC5771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69363E111C99BBFB00AC5771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69363E141C99BBFB00AC5771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69363E161C99BBFB00AC5771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69363E221C9A632000AC5771 /* logginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logginViewController.h; sourceTree = "<group>"; };
+		69363E231C9A632000AC5771 /* logginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logginViewController.m; sourceTree = "<group>"; };
+		8DB6E44082095F4317625389 /* Pods-ParseFBlink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseFBlink.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParseFBlink/Pods-ParseFBlink.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6A9827434A762D0CBA0EAF /* Pods-ParseFBlink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseFBlink.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseFBlink/Pods-ParseFBlink.release.xcconfig"; sourceTree = "<group>"; };
+		EE89E032BE23D2121F514A12 /* libPods-ParseFBlink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParseFBlink.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69363DFF1C99BBFB00AC5771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124EC52B44AC7946B777A933 /* libPods-ParseFBlink.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220664A368D040B7B7FB701B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE89E032BE23D2121F514A12 /* libPods-ParseFBlink.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24C3C70D5C876036D3501DD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DB6E44082095F4317625389 /* Pods-ParseFBlink.debug.xcconfig */,
+				BA6A9827434A762D0CBA0EAF /* Pods-ParseFBlink.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69363DF91C99BBFB00AC5771 = {
+			isa = PBXGroup;
+			children = (
+				69363E041C99BBFB00AC5771 /* ParseFBlink */,
+				69363E031C99BBFB00AC5771 /* Products */,
+				24C3C70D5C876036D3501DD1 /* Pods */,
+				220664A368D040B7B7FB701B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69363E031C99BBFB00AC5771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69363E021C99BBFB00AC5771 /* ParseFBlink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69363E041C99BBFB00AC5771 /* ParseFBlink */ = {
+			isa = PBXGroup;
+			children = (
+				69363E221C9A632000AC5771 /* logginViewController.h */,
+				69363E231C9A632000AC5771 /* logginViewController.m */,
+				69363E081C99BBFB00AC5771 /* AppDelegate.h */,
+				69363E091C99BBFB00AC5771 /* AppDelegate.m */,
+				69363E0B1C99BBFB00AC5771 /* ViewController.h */,
+				69363E0C1C99BBFB00AC5771 /* ViewController.m */,
+				69363E0E1C99BBFB00AC5771 /* Main.storyboard */,
+				69363E111C99BBFB00AC5771 /* Assets.xcassets */,
+				69363E131C99BBFB00AC5771 /* LaunchScreen.storyboard */,
+				69363E161C99BBFB00AC5771 /* Info.plist */,
+				69363E051C99BBFB00AC5771 /* Supporting Files */,
+			);
+			path = ParseFBlink;
+			sourceTree = "<group>";
+		};
+		69363E051C99BBFB00AC5771 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69363E061C99BBFB00AC5771 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69363E011C99BBFB00AC5771 /* ParseFBlink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69363E191C99BBFB00AC5771 /* Build configuration list for PBXNativeTarget "ParseFBlink" */;
+			buildPhases = (
+				31A1B4C7BAFF63E69581A3D5 /* Check Pods Manifest.lock */,
+				69363DFE1C99BBFB00AC5771 /* Sources */,
+				69363DFF1C99BBFB00AC5771 /* Frameworks */,
+				69363E001C99BBFB00AC5771 /* Resources */,
+				A22F47A7DC32158DBEB0B693 /* Embed Pods Frameworks */,
+				62514BC988CF98F7012B56BE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParseFBlink;
+			productName = ParseFBlink;
+			productReference = 69363E021C99BBFB00AC5771 /* ParseFBlink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69363DFA1C99BBFB00AC5771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = EthanChou;
+				TargetAttributes = {
+					69363E011C99BBFB00AC5771 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 69363DFD1C99BBFB00AC5771 /* Build configuration list for PBXProject "ParseFBlink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69363DF91C99BBFB00AC5771;
+			productRefGroup = 69363E031C99BBFB00AC5771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69363E011C99BBFB00AC5771 /* ParseFBlink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69363E001C99BBFB00AC5771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69363E151C99BBFB00AC5771 /* LaunchScreen.storyboard in Resources */,
+				69363E121C99BBFB00AC5771 /* Assets.xcassets in Resources */,
+				69363E101C99BBFB00AC5771 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31A1B4C7BAFF63E69581A3D5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62514BC988CF98F7012B56BE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParseFBlink/Pods-ParseFBlink-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A22F47A7DC32158DBEB0B693 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParseFBlink/Pods-ParseFBlink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69363DFE1C99BBFB00AC5771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69363E0D1C99BBFB00AC5771 /* ViewController.m in Sources */,
+				69363E241C9A632000AC5771 /* logginViewController.m in Sources */,
+				69363E0A1C99BBFB00AC5771 /* AppDelegate.m in Sources */,
+				69363E071C99BBFB00AC5771 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		69363E0E1C99BBFB00AC5771 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69363E0F1C99BBFB00AC5771 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69363E131C99BBFB00AC5771 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69363E141C99BBFB00AC5771 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69363E171C99BBFB00AC5771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69363E181C99BBFB00AC5771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69363E1A1C99BBFB00AC5771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB6E44082095F4317625389 /* Pods-ParseFBlink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParseFBlink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EthanChou.ParseFBlink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69363E1B1C99BBFB00AC5771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6A9827434A762D0CBA0EAF /* Pods-ParseFBlink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParseFBlink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EthanChou.ParseFBlink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69363DFD1C99BBFB00AC5771 /* Build configuration list for PBXProject "ParseFBlink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69363E171C99BBFB00AC5771 /* Debug */,
+				69363E181C99BBFB00AC5771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69363E191C99BBFB00AC5771 /* Build configuration list for PBXNativeTarget "ParseFBlink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69363E1A1C99BBFB00AC5771 /* Debug */,
+				69363E1B1C99BBFB00AC5771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69363DFA1C99BBFB00AC5771 /* Project object */;
+}
