@@ -8,3 +8,8 @@ server在heroku然後db在mongolab
 結果兩個都可以跟db溝通，都可以寫入新註冊的使用者
 我的天啊～
 那這樣我還要第三方auth教學幹嘛？
+
+# 3/18更新-結論
+oauth如果hide起來的時候呢，我猜有個cache把它存起來了，</br>
+那如果今天呢，我們把oauth的facebookID換成另一個app，就會出現error囉～
+所以oauth還是必須存在的～
